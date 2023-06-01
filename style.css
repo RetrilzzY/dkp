@@ -11,6 +11,10 @@ body {
   background-size: cover;
 }
 
+.note-content {
+  display: none;
+}
+
 h1 {
   color: #f5f9fc;
   text-align: center;
@@ -62,11 +66,29 @@ h1 {
   text-align: center;
 }
 
+.button1 {
+  display: block;
+  margin-inline: auto;
+  margin-top: 15px;
+  width: 200px;
+  padding: 12px;
+  background-color: #00a2ff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #0086d3;
+}
+
 .button {
   display: block;
   margin-inline: auto;
   width: 200px;
-  margin-top: 20px;
   padding: 12px;
   background-color: #00a2ff;
   color: #fff;
@@ -97,6 +119,7 @@ h1 {
 
 .result {
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .result-label {
@@ -111,7 +134,6 @@ h1 {
 }
 
 .note {
-  margin-top: 40px;
   padding: 20px;
   background-color: #f9f9f9;
   border-radius: 5px;

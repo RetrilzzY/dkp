@@ -10,7 +10,6 @@ function calculateDKP() {
     dkpResult.textContent = dkp.toLocaleString();
   }
   
-
 function switchStyle() {
     var modeButton = document.getElementById('style');
     var body = document.body;
@@ -26,17 +25,11 @@ function switchStyle() {
     }
   }
 
-
-  function switchMode() {
-    var modeButton = document.getElementById('mode');
-    var body = document.body;
-  
-    if (body.classList.contains('dark-mode')) {
-      body.classList.remove('dark-mode');
-      modeButton.innerHTML = 'Switch to Dark Mode';
-    } else {
-      body.classList.add('dark-mode');
-      modeButton.innerHTML = 'Switch to Light Mode';
-    }
+function toggleNote() {
+  var noteContent = document.getElementById("noteContent");
+  if (noteContent.style.display === "none") {
+    noteContent.style.display = "block";
+  } else {
+    noteContent.style.display = "none";
   }
-  
+}
