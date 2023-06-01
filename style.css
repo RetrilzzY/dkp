@@ -1,0 +1,191 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 10px;
+  font-size: 24px;
+  background-color: #1a1919;
+  background-image: url('mmmotif.svg');
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  color: #f5f9fc;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+  backdrop-filter: blur(8px);
+  max-width: 350px;
+  border-radius: 5px;
+}
+
+.author {
+  font-size: 12px;
+  color: #f5f9fce3;
+  margin-left: 5px;
+}
+
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  backdrop-filter: blur(20px);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.label {
+  display: block;
+  margin-inline: 10px;
+  font-weight: bold;
+  color: #f5f9fc;
+  font-size: 20px;
+  text-align: center;
+}
+
+.input {
+  margin-top: 4px;
+  margin-bottom: 10px;
+  margin-inline: 20%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 60%;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+  background-color: #f5f9fc;
+  color: #292929;
+  font-size: 16px;
+  text-align: center;
+}
+
+.button {
+  display: block;
+  margin-inline: auto;
+  width: 200px;
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #00a2ff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #0086d3;
+}
+
+.mode {
+  padding: 10px;
+  background-color: #00a2ff;
+  color: white;
+  font-size: 13px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.mode:hover {
+  background-color: #0086d3;
+}
+
+.result {
+  text-align: center;
+}
+
+.result-label {
+  font-weight: bold;
+  color: #f5f9fc;
+}
+
+.result-value {
+  color: #ffffff;
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.note {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.note h2 {
+  font-size: 22px;
+  color: #292929;
+  margin-bottom: 10px;
+}
+
+.note h3 {
+  font-size: 20px;
+  color: #4a4a4a;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.note p {
+  font-size: 16px;
+  color: #6e6e6e;
+  margin-bottom: 10px;
+}
+
+.note strong {
+  font-weight: bold;
+}
+
+.note table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+  font-size: 17px;
+  text-align: center;
+}
+
+.note table td {
+  padding: 5px 10px;
+  border: 1px solid #c2c2c2;
+}
+
+.note ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.note li {
+  font-size: 14px;
+  color: #6e6e6e;
+}
+
+.style2 .container {
+  max-width: 100%;
+}
+
+.style2 .input {
+  margin-top: 4px;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 95%;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #f9f9f9;
+  color: #292929;
+  font-size: 16px;
+  margin-inline: 0.1%;
+}
+
+.style2 .button {
+  width: 85%;
+}
+
+.bold {
+  font-weight: 700;
+}

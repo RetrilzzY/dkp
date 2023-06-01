@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DKP Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+    <link rel="icon" type="image/png" sizes="96x96" href="/dkpic.png" />
+</head>
+<body class="body">
+  <button class="mode" id="style" onclick="switchStyle()">Switch style</button>
+
+  <h1>DKP Calculator<span class="author">by RazY</span></h1>
+    <div class="container">
+      <label class="label" for="t4Kills">T4 Kills:</label>
+      <input class="input" type="number" id="t4Kills" min="0" value="0">
+      <br>
+      <label class="label" for="t5Kills">T5 Kills:</label>
+      <input class="input" type="number" id="t5Kills" min="0" value="0">
+      <br>
+      <label class="label" for="t4Deaths">T4 Deaths:</label>
+      <input class="input" type="number" id="t4Deaths" min="0" value="0">
+      <br>
+      <label class="label" for="t5Deaths">T5 Deaths:</label>
+      <input class="input" type="number" id="t5Deaths" min="0" value="0">
+      <br>
+      <button class="button" onclick="calculateDKP()">Calculate DKP</button>
+      <br>
+      <div class="result">
+        <label class="result-label" for="dkpResult">Total:</label>
+        <div class="result-value" id="dkpResult">0</div>
+      </div>
+      <div class="note">
+  <h2>KVK Stats & Contribution Minimums</h2>
+  <h3>Requirements</h3>
+  <p>All accounts in the top 300 are required to meet the kill/dead minimum requirements to stay in the KD. Top 300 in power are subject to the requirements. This includes alts/farms. If they're in the top 300 they must meet mins. Everyone should aim to surpass mins, especially to stay in the top alliances.</p>
+  <p><strong>DKP will be used for reward lists once fighting starts.</strong></p>
+  <p>DKP = T4 kills x1, + T5 kills x 5.25, + T4 deaths x 5, + T5 deaths x 10</p>
+  <h3>STARTING POWER > MINIMUM KILLS, DEADS</h3>
+  <p>(DO NOT CONFUSE KILLS WITH KILL POINTS)</p>
+  <p>Note: Only T4 & T5 troops count.</p>
+  <table>
+    <tr class="bold">
+      <td>POWER</td>
+      <td>MINIMUM KILLS, DEATHS</td>
+    </tr>
+    <tr>
+      <td><20 mil</td>
+      <td>2 mil, 200K deads</td>
+    </tr>
+    <tr>
+      <td>20-30 mil</td>
+      <td>3 mil, 250k deads</td>
+    </tr>
+    <tr>
+      <td>30-40 mil</td>
+      <td>4 mil, 350k deads</td>
+    </tr>
+    <tr>
+      <td>40-55 mil</td>
+      <td>5 mil, 400k deads</td>
+    </tr>
+    <tr>
+      <td>55-65 mil</td>
+      <td>6 mil, 600k deads</td>
+    </tr>
+    <tr>
+      <td>65-70 mil</td>
+      <td>8 mil, 800k deads</td>
+    </tr>
+    <tr>
+      <td>70-75 mil</td>
+      <td>10 mil, 1M deads</td>
+    </tr>
+    <tr>
+      <td>75-80 mil</td>
+      <td>12 mil, 1.2M deads</td>
+    </tr>
+    <tr>
+      <td>80-85 mil</td>
+      <td>14 mil, 1.4M deads</td>
+    </tr>
+    <tr>
+      <td>85-90 mil</td>
+      <td>16 mil, 1.6M deads</td>
+    </tr>
+    <tr>
+      <td>90-100 mil</td>
+      <td>18 mil, 1.8M deads</td>
+    </tr>
+    <tr>
+      <td>100-110 mil</td>
+      <td>19 mil, 2M deads</td>
+    </tr>
+    <tr>
+      <td>110+ mil</td>
+      <td>20 mil, 2.2M deads</td>
+    </tr>
+  </table>
+    
+  </table>
+  <p>This is a very small minimum we are asking players to accomplish to keep our KD successful and everyone can achieve these, even F2P.</p>
+  <p>STAT "fixing" AFTER KVK WILL NOT BE ACCEPTED IN PLACE OF MEETING KVK MINS. Either you get your kills/deads during KvK or you will be asked to leave/zeroed.</p>
+  <h3>Hall of Heroes (HoH) Submission</h3>
+  <p>We require players to submit their HoH data via google form after these fights:</p>
+  <ul>
+    <li>KingsLand - HoH submission is required. Non-submission or late submissions will be considered <strong>Zero Deaths</strong>.</li>
+  </ul>
+  <p>Thank you,</p>
+  <p>2914 Leadership</p>
+</div>
+    </div>
+</body>
+</html>
