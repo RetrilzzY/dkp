@@ -72,7 +72,7 @@ h1 {
   margin-top: 15px;
   width: 200px;
   padding: 12px;
-  background-color: #00a2ff;
+  background-color: #0d4cf8;
   color: #fff;
   border: none;
   border-radius: 3px;
@@ -82,7 +82,7 @@ h1 {
 }
 
 .button:hover {
-  background-color: #0086d3;
+  background-color: #174ad6;
 }
 
 .button {
@@ -90,7 +90,7 @@ h1 {
   margin-inline: auto;
   width: 200px;
   padding: 12px;
-  background-color: #00a2ff;
+  background-color: #0d4cf8;
   color: #fff;
   border: none;
   border-radius: 3px;
@@ -100,12 +100,12 @@ h1 {
 }
 
 .button1:hover {
-  background-color: #0086d3;
+  background-color: #174ad6;
 }
 
 .mode {
   padding: 10px;
-  background-color: #00a2ff;
+  background-color: #0d4cf8;
   color: white;
   font-size: 13px;
   border: none;
@@ -114,7 +114,7 @@ h1 {
 }
 
 .mode:hover {
-  background-color: #0086d3;
+  background-color: #174ad6;
 }
 
 .result {
